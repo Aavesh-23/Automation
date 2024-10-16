@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonSuite">
+  <test thread-count="5" name="ChromeTest">
+	  <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="e_commerce.Test_classes"/>
+      <!--<class name="ecommerce2.Pets"/>-->
+      
+    </classes>
+  </test> 
+  
+ 
+</suite> 
