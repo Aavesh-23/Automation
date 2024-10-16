@@ -18,7 +18,7 @@ public class Pets {
 	
 	@BeforeClass
 		public void launch() throws InterruptedException {
-			System.out.println("BC");
+			System.out.println("BeforeClass");
 			driver=new ChromeDriver();
 			//driver=new SafariDriver();
 
